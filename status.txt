@@ -1,0 +1,97 @@
+Process 0 is created. Page Table size is 22 Number of resident pages is 0.
+Process 1 is created. Page Table size is 9 Number of resident pages is 0.
+Process 1 is reading from virtual page 0 which occupies frame 0.  Number of resident pages is 1(0:0).
+Process 1 is writing to virtual page 0 which occupies frame 0.  Number of resident pages is 1(0:0).
+Process 1 is writing to virtual page 0 which occupies frame 0.  Number of resident pages is 1(0:0).
+Process 0 is reading from virtual page 1 which occupies frame 1.  Number of resident pages is 1(1:1).
+Process 0 is writing to virtual page 10 which occupies frame 2.  Number of resident pages is 2(1:1,10:2).
+Process 0 is writing to virtual page 10 which occupies frame 2.  Number of resident pages is 2(1:1,10:2).
+Process 2 is created. Page Table size is 13 Number of resident pages is 0.
+Process 2 is reading from virtual page 1 which occupies frame 3.  Number of resident pages is 1(1:3).
+Process 2 is writing to virtual page 1 which occupies frame 3.  Number of resident pages is 1(1:3).
+Process 2 is writing to virtual page 1 which occupies frame 3.  Number of resident pages is 1(1:3).
+Process 1 is reading from virtual page 1 which occupies frame 4.  Number of resident pages is 2(0:0,1:4).
+Process 1 is writing to virtual page 2 which occupies frame 5.  Number of resident pages is 3(0:0,1:4,2:5).
+Process 1 is writing to virtual page 2 which occupies frame 5.  Number of resident pages is 3(0:0,1:4,2:5).
+Process 3 is created. Page Table size is 11 Number of resident pages is 0.
+Process 3 is reading from virtual page 0 which occupies frame 6.  Number of resident pages is 1(0:6).
+Process 3 is writing to virtual page 0 which occupies frame 6.  Number of resident pages is 1(0:6).
+Process 2 is reading from virtual page 12 which occupies frame 7.  Number of resident pages is 2(1:3,12:7).
+Process 2 is writing to virtual page 11 which occupies frame 8.  Number of resident pages is 3(1:3,12:7,11:8).
+Process 2 is writing to virtual page 12 which occupies frame 7.  Number of resident pages is 3(1:3,12:7,11:8).
+Process 0 is reading from virtual page 1 which occupies frame 1.  Number of resident pages is 2(1:1,10:2).
+Process 0 is writing to virtual page 10 which occupies frame 2.  Number of resident pages is 2(1:1,10:2).
+Process 0 is writing to virtual page 2 which occupies frame 9.  Number of resident pages is 3(1:1,10:2,2:9).
+Process 0 is reading from virtual page 3 which occupies frame 10.  Number of resident pages is 4(1:1,10:2,2:9,3:10).
+Process 0 is writing to virtual page 4 which occupies frame 11.  Number of resident pages is 5(1:1,10:2,2:9,3:10,4:11).
+Process 3 is writing to virtual page 9 which occupies frame 12.  Number of resident pages is 2(0:6,9:12).
+Process 3 is reading from virtual page 9 which occupies frame 12.  Number of resident pages is 2(0:6,9:12).
+Process 3 is writing to virtual page 0 which occupies frame 6.  Number of resident pages is 2(0:6,9:12).
+Process 3 is writing to virtual page 10 which occupies frame 13.  Number of resident pages is 3(0:6,9:12,10:13).
+Process 3 is reading from virtual page 0 which occupies frame 6.  Number of resident pages is 3(0:6,9:12,10:13).
+Process 3 is writing to virtual page 8 which occupies frame 14.  Number of resident pages is 4(0:6,9:12,10:13,8:14).
+Process 3 is writing to virtual page 0 which occupies frame 6.  Number of resident pages is 4(0:6,9:12,10:13,8:14).
+Process 3 is reading from virtual page 7 which occupies frame 15.  Number of resident pages is 5(0:6,9:12,10:13,8:14,7:15).
+Process 3 is writing to virtual page 0 which occupies frame 6.  Number of resident pages is 5(0:6,9:12,10:13,8:14,7:15).
+Error: No free frame. Request from Process 3, page 1.
+Process 1 is reading from virtual page 3 which occupies frame 12.  Number of resident pages is 4(0:0,1:4,2:5,3:12).
+Process 1 is writing to virtual page 0 which occupies frame 0.  Number of resident pages is 4(0:0,1:4,2:5,3:12).
+Process 1 is writing to virtual page 7 which occupies frame 13.  Number of resident pages is 5(0:0,1:4,2:5,3:12,7:13).
+Process 2 is reading from virtual page 11 which occupies frame 8.  Number of resident pages is 3(1:3,12:7,11:8).
+Process 2 is writing to virtual page 12 which occupies frame 7.  Number of resident pages is 3(1:3,12:7,11:8).
+Process 2 is writing to virtual page 1 which occupies frame 3.  Number of resident pages is 3(1:3,12:7,11:8).
+Process 2 is reading from virtual page 1 which occupies frame 3.  Number of resident pages is 3(1:3,12:7,11:8).
+Error: No free frame. Request from Process 0, page 21.
+Process 0 is reading from virtual page 1 which occupies frame 1.  Number of resident pages is 5(1:1,10:2,2:9,3:10,4:11).
+Process 0 is writing to virtual page 10 which occupies frame 2.  Number of resident pages is 5(1:1,10:2,2:9,3:10,4:11).
+Process 1 is reading from virtual page 7 which occupies frame 13.  Number of resident pages is 5(0:0,1:4,2:5,3:12,7:13).
+Process 1 is writing to virtual page 2 which occupies frame 5.  Number of resident pages is 5(0:0,1:4,2:5,3:12,7:13).
+Process 1 is writing to virtual page 1 which occupies frame 4.  Number of resident pages is 5(0:0,1:4,2:5,3:12,7:13).
+Error: No free frame. Request from Process 1, page 8.
+Error: No free frame. Request from Process 3, page 6.
+Error: No free frame. Request from Process 3, page 6.
+Process 3 is writing to virtual page 0 which occupies frame 6.  Number of resident pages is 3(0:6,8:14,7:15).
+Error: No free frame. Request from Process 3, page 5.
+Process 3 is writing to virtual page 0 which occupies frame 6.  Number of resident pages is 3(0:6,8:14,7:15).
+Error: No free frame. Request from Process 3, page 4.
+Process 3 is reading from virtual page 0 which occupies frame 6.  Number of resident pages is 1(0:6).
+Process 3 terminated.  Total memory accesses: 19.   Total page faults: 5. Page fault percentage: 0.263158.   Average resident set size: 2.
+Process 0 is writing to virtual page 4 which occupies frame 11.  Number of resident pages is 5(1:1,10:2,2:9,3:10,4:11).
+Process 0 is reading from virtual page 5 which occupies frame 6.  Number of resident pages is 5(1:1,10:2,5:6,3:10,4:11).
+Process 0 is writing to virtual page 6 which occupies frame 9.  Number of resident pages is 6(1:1,10:2,5:6,6:9,3:10,4:11).
+Process 0 is writing to virtual page 4 which occupies frame 11.  Number of resident pages is 6(1:1,10:2,5:6,6:9,3:10,4:11).
+Process 0 is reading from virtual page 21 which occupies frame 14.  Number of resident pages is 7(1:1,10:2,5:6,6:9,3:10,4:11,21:14).
+Process 0 use-bits scanned.  New resident set size is 4.   Resident set: 4(5:6,6:9,4:11,21:14).
+Process 0 is writing to virtual page 10 which occupies frame 1.  Number of resident pages is 5(10:1,5:6,6:9,4:11,21:14).
+Process 0 is writing to virtual page 10 which occupies frame 1.  Number of resident pages is 5(10:1,5:6,6:9,4:11,21:14).
+Process 2 is writing to virtual page 2 which occupies frame 2.  Number of resident pages is 4(2:2,1:3,12:7,11:8).
+Process 2 is writing to virtual page 2 which occupies frame 2.  Number of resident pages is 4(2:2,1:3,12:7,11:8).
+Process 2 is reading from virtual page 1 which occupies frame 3.  Number of resident pages is 4(2:2,1:3,12:7,11:8).
+Process 2 is writing to virtual page 6 which occupies frame 10.  Number of resident pages is 5(2:2,1:3,12:7,11:8,6:10).
+Process 2 is writing to virtual page 4 which occupies frame 15.  Number of resident pages is 6(2:2,1:3,12:7,11:8,6:10,4:15).
+Error: No free frame. Request from Process 2, page 3.
+Error: No free frame. Request from Process 1, page 8.
+Process 1 is writing to virtual page 0 which occupies frame 0.  Number of resident pages is 5(0:0,1:4,2:5,3:12,7:13).
+Process 1 terminated.  Total memory accesses: 15.   Total page faults: 6. Page fault percentage: 0.4.   Average resident set size: 4.
+Process 2 is writing to virtual page 9 which occupies frame 0.  Number of resident pages is 7(9:0,2:2,1:3,12:7,11:8,6:10,4:15).
+Process 2 is writing to virtual page 11 which occupies frame 4.  Number of resident pages is 6(9:0,2:2,1:3,11:4,6:10,4:15).
+Process 2 is reading from virtual page 12 which occupies frame 5.  Number of resident pages is 7(9:0,2:2,1:3,11:4,12:5,6:10,4:15).
+Process 2 is writing to virtual page 11 which occupies frame 4.  Number of resident pages is 7(9:0,2:2,1:3,11:4,12:5,6:10,4:15).
+Process 2 is writing to virtual page 1 which occupies frame 3.  Number of resident pages is 7(9:0,2:2,1:3,11:4,12:5,6:10,4:15).
+Process 2 is writing to virtual page 11 which occupies frame 4.  Number of resident pages is 7(9:0,2:2,1:3,11:4,12:5,6:10,4:15).
+Process 2 is reading from virtual page 9 which occupies frame 0.  Number of resident pages is 7(9:0,2:2,1:3,11:4,12:5,6:10,4:15).
+Process 2 use-bits scanned.  New resident set size is 4.   Resident set: 4(9:0,1:3,11:4,12:5).
+Process 0 is reading from virtual page 1 which occupies frame 2.  Number of resident pages is 6(10:1,1:2,5:6,6:9,4:11,21:14).
+Process 0 is writing to virtual page 20 which occupies frame 7.  Number of resident pages is 7(10:1,1:2,5:6,20:7,6:9,4:11,21:14).
+Process 2 is writing to virtual page 9 which occupies frame 0.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 2 is writing to virtual page 11 which occupies frame 4.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 2 is reading from virtual page 12 which occupies frame 5.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 2 is writing to virtual page 11 which occupies frame 4.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 2 is writing to virtual page 1 which occupies frame 3.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 2 is writing to virtual page 11 which occupies frame 4.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 0 is writing to virtual page 20 which occupies frame 7.  Number of resident pages is 3(10:1,1:2,20:7).
+Process 0 terminated.  Total memory accesses: 21.   Total page faults: 11. Page fault percentage: 0.52381.   Average resident set size: 3.4.
+Process 2 is reading from virtual page 9 which occupies frame 0.  Number of resident pages is 4(9:0,1:3,11:4,12:5).
+Process 2 is writing to virtual page 8 which occupies frame 1.  Number of resident pages is 5(9:0,8:1,1:3,11:4,12:5).
+Process 2 is writing to virtual page 1 which occupies frame 3.  Number of resident pages is 5(9:0,8:1,1:3,11:4,12:5).
+Process 2 terminated.  Total memory accesses: 32.   Total page faults: 10. Page fault percentage: 0.3125.   Average resident set size: 4.16667.
